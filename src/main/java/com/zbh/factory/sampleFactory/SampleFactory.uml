@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.zbh.factory.sampleFactory.SampleFactoryTest</OriginalElement>
+  <nodes>
+    <node x="375.0" y="103.0">com.zbh.factory.PythonCourse</node>
+    <node x="219.74999999999997" y="206.0">com.zbh.factory.sampleFactory.SampleFactoryTest</node>
+    <node x="273.5833333333333" y="0.0">com.zbh.factory.ICourse</node>
+    <node x="0.0" y="103.0">com.zbh.factory.JavaCourse</node>
+    <node x="163.99999999999997" y="103.0">com.zbh.factory.sampleFactory.CourseFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zbh.factory.JavaCourse" target="com.zbh.factory.ICourse">
+      <point x="0.0" y="-26.5" />
+      <point x="72.0" y="73.0" />
+      <point x="291.5833333333333" y="73.0" />
+      <point x="-54.0" y="26.5" />
+    </edge>
+    <edge source="com.zbh.factory.PythonCourse" target="com.zbh.factory.ICourse">
+      <point x="0.0" y="-26.5" />
+      <point x="447.0" y="83.0" />
+      <point x="363.5833333333333" y="83.0" />
+      <point x="18.0" y="26.5" />
+    </edge>
+    <edge source="com.zbh.factory.sampleFactory.SampleFactoryTest" target="com.zbh.factory.PythonCourse">
+      <point x="35.0" y="-26.5" />
+      <point x="342.25" y="176.0" />
+      <point x="447.0" y="176.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.zbh.factory.sampleFactory.SampleFactoryTest" target="com.zbh.factory.sampleFactory.CourseFactory">
+      <point x="0.0" y="-26.5" />
+      <point x="47.75" y="26.5" />
+    </edge>
+    <edge source="com.zbh.factory.sampleFactory.SampleFactoryTest" target="com.zbh.factory.JavaCourse">
+      <point x="-70.0" y="-26.5" />
+      <point x="237.24999999999997" y="186.0" />
+      <point x="72.0" y="186.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.zbh.factory.sampleFactory.CourseFactory" target="com.zbh.factory.ICourse">
+      <point x="0.0" y="-26.5" />
+      <point x="259.5" y="83.0" />
+      <point x="327.5833333333333" y="83.0" />
+      <point x="-18.0" y="26.5" />
+    </edge>
+    <edge source="com.zbh.factory.sampleFactory.SampleFactoryTest" target="com.zbh.factory.ICourse">
+      <point x="70.0" y="-26.5" />
+      <point x="377.25" y="186.0" />
+      <point x="529.5" y="186.0" />
+      <point x="529.5" y="73.0" />
+      <point x="399.5833333333333" y="73.0" />
+      <point x="53.99999999999999" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="78.5" y="59.0" />
+  <SelectedNodes>
+    <node>com.zbh.factory.sampleFactory.SampleFactoryTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
