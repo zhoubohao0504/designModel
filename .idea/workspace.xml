@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddcea584-33c8-4ccf-8b09-2d8e53c6886e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/DbRouteProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/entity/DynamicDataSourceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamic/OrderServiceDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/cglibproxy/CGlibMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/cglibproxy/CglibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/cglibproxy/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/gpproxy/GPClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/gpproxy/GPInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/gpproxy/GPMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/gpproxy/GPProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/gpproxy/GPProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/jdkproxy/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/jdkproxy/JDKMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/statics/OrderServiceStaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZIvokationHanle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZMeiPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/treadLocal/ThreadLocalSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,15 +44,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="313862361">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.86" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -32,45 +70,63 @@
           <entry key="JavaCourse" value="1" />
           <entry key="PythonCourse" value="2" />
           <entry key="SampleFactoryTest" value="2" />
-          <entry key="java" value="52" />
-          <entry key="md" value="13" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="94" />
+          <entry key="md" value="14" />
           <entry key="uml" value="2" />
+          <entry key="xml" value="2" />
           <entry key="抽象工厂" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="52" />
-          <entry key="Markdown" value="13" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="94" />
+          <entry key="Markdown" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="UML" value="12" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="12" />
-          <entry key="java" value="3744" />
-          <entry key="md" value="1347" />
+          <entry key="dummy" value="16" />
+          <entry key="java" value="5850" />
+          <entry key="md" value="1539" />
           <entry key="txt" value="2" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3744" />
-          <entry key="Markdown" value="1347" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="JAVA" value="5850" />
+          <entry key="Markdown" value="1539" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/单例模式.md">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/readMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="186">
-                <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <first_editor relative-caret-position="152">
+                <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -78,40 +134,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/register/ContainerSingleton.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZProxyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#260#276#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/register/EnumSingleTon.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/register/EnumSigletonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="589">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,19 +155,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/lazy/LazyInnerClassSingleton.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/gpproxy/GPClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/lazy/ExectorThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+            <state relative-caret-position="608">
+              <caret line="34" column="81" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,29 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/sampleFactory/SampleFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/sampleFactory/CourseFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/sampleFactory/SampleFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/sampleFactory/JavaCourse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/sampleFactory/PythonCourse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/FactoryMethod/IFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/FactoryMethod/ICouerseFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/FactoryMethod/IJavaFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/FactoryMethod/IPythonFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/AbstractFactory/INote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/AbstractFactory/IVideo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/AbstractFactory/Ifactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/AbstractFactory/JavaCourse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/JavaNote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/JavaVideo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/AbstractFactory/JavaFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/AbstractFactory/PythonVideo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/AbstractFactory/PythonNote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/PythonNote.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/AbstractFactory/PythonFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/AbstractFactory/AbstractFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/FactoryMethod/FactoryMethodTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/AbstractFactory/abstractFactory.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/sampleFactory/简单工厂.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/zbh/factory/FactoryMethod/工厂方法.md" />
@@ -206,6 +212,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/register/ContainerSingleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/register/EnumSingleTon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/register/EnumSigletonTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/OrderServiceStaticProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/lazy/ThreadLocalSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/OrderServiceStaticProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/statics/OrderServiceStaticProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/gpproxy/GPMeipo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamic/OrderServiceDynamicProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/jdkproxy/JDKMeipo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/jdkproxy/Girl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/cglibproxy/CglibMeipo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZIvokationHanle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/Zproxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZMeiPo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/Girl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/gpproxy/GPProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/DbRouteProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/$Proxy0.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/readMe.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZProxy.java" />
       </list>
     </option>
   </component>
@@ -222,13 +251,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds" extendedState="7">
-=======
   <component name="ProjectFrameBounds" extendedState="6">
->>>>>>> 0b4603f2fbe057709799b809a49ab424a5894a6c
-    <option name="x" value="208" />
-    <option name="y" value="188" />
+    <option name="x" value="-371" />
+    <option name="y" value="32" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -239,6 +264,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,48 +314,42 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zbh" type="462c0819:PsiDirectoryNode" />
-              <item name="singletonPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zbh" type="462c0819:PsiDirectoryNode" />
-              <item name="singletonPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractFactory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552548832021" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552548460552" />
->>>>>>> 0b4603f2fbe057709799b809a49ab424a5894a6c
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553066057942" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_162/lib/tools.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zbh.SingletonPattern.Hungry" />
-      <recent name="com.zbh.factory.sampleFactory" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\designModel\src\main\java\com\zbh\pattern\dbroute\proxy" />
       <recent name="F:\designModel\src\main\java\com\zbh\factory\sampleFactory" />
       <recent name="F:\designModel\src\main\java\com\zbh\factory\FactoryMethod" />
       <recent name="F:\designModel\src\main\java\com\zbh\factory\AbstractFactory" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zbh.pattern.myproxy" />
+      <recent name="com.zbh.SingletonPattern.Hungry" />
+      <recent name="com.zbh.factory.sampleFactory" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zbh.singletonPattern.lazy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -344,13 +364,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadLocalSingletonTest">
+  <component name="RunManager" selected="Application.ZProxyTest">
     <configuration name="ContainerSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zbh.singletonPattern.register.ContainerSingletonTest" />
       <module name="designModel" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zbh.singletonPattern.register.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DbRouteProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zbh.pattern.dbroute.DbRouteProxyTest" />
+      <module name="designModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zbh.pattern.dbroute.proxy.statics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,32 +404,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazyInnerClassSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zbh.singletonPattern.lazy.LazyInnerClassSingletonTest" />
-      <module name="designModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zbh.singletonPattern.lazy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeriableSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zbh.singletonPattern.lazy.SeriableSingletonTest" />
-      <module name="designModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zbh.singletonPattern.lazy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreadLocalSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zbh.singletonPattern.treadLocal.ThreadLocalSingletonTest" />
       <module name="designModel" />
@@ -410,20 +417,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zbh.pattern.myproxy.ZProxyTest" />
+      <module name="designModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zbh.pattern.myproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.LazyInnerClassSingletonTest" />
-      <item itemvalue="Application.SeriableSingletonTest" />
       <item itemvalue="Application.EnumSigletonTest" />
       <item itemvalue="Application.ContainerSingletonTest" />
       <item itemvalue="Application.ThreadLocalSingletonTest" />
+      <item itemvalue="Application.DbRouteProxyTest" />
+      <item itemvalue="Application.ZProxyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZProxyTest" />
+        <item itemvalue="Application.DbRouteProxyTest" />
         <item itemvalue="Application.ThreadLocalSingletonTest" />
         <item itemvalue="Application.ContainerSingletonTest" />
         <item itemvalue="Application.EnumSigletonTest" />
-        <item itemvalue="Application.SeriableSingletonTest" />
-        <item itemvalue="Application.LazyInnerClassSingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -439,11 +459,10 @@
       <updated>1552028180343</updated>
       <workItem from="1552028185480" duration="1233000" />
       <workItem from="1552293518731" duration="30720000" />
-<<<<<<< HEAD
       <workItem from="1552544571375" duration="3909000" />
-=======
-      <workItem from="1552544571375" duration="3885000" />
->>>>>>> 0b4603f2fbe057709799b809a49ab424a5894a6c
+      <workItem from="1552982884205" duration="10867000" />
+      <workItem from="1553052683115" duration="1032000" />
+      <workItem from="1553064067874" duration="1987000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1552378190011</created>
@@ -505,11 +524,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="35862000" />
-=======
-    <option name="totallyTimeSpent" value="35838000" />
->>>>>>> 0b4603f2fbe057709799b809a49ab424a5894a6c
+    <option name="totallyTimeSpent" value="54656000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,11 +536,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-=======
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
->>>>>>> 0b4603f2fbe057709799b809a49ab424a5894a6c
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -533,18 +545,18 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" sideWeight="0.5023148" side_tool="true" weight="0.24158126" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4976852" visible="true" weight="0.2322239" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4976852" visible="true" weight="0.25642964" />
       <window_info id="Structure" order="7" sideWeight="0.5008183" side_tool="true" weight="0.24962178" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49848714" weight="0.30983606" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4969743" weight="0.3704918" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49924356" weight="0.4819672" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50075644" side_tool="true" weight="0.19344263" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5030257" side_tool="true" weight="0.40655738" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" visible="true" weight="0.31753555" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="5" sideWeight="0.49924356" visible="true" weight="0.40163934" />
+      <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49924356" weight="0.40163934" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.29344264" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49924356" weight="0.4147541" />
+      <window_info active="true" anchor="bottom" id="Find" order="8" sideWeight="0.49924356" visible="true" weight="0.17213115" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49924356" visible="true" weight="0.35081968" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -560,6 +572,40 @@
       <window_info anchor="right" id="Ant Build" order="8" weight="0.24963397" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" sideWeight="0.50248754" side_tool="true" weight="0.24962178" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Web" order="4" sideWeight="0.5023148" side_tool="true" weight="0.24158126" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4976852" visible="true" weight="0.24886535" />
+      <window_info id="Structure" order="7" sideWeight="0.5008183" side_tool="true" weight="0.24962178" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" sideWeight="0.4969743" visible="true" weight="0.40655738" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49924356" weight="0.4819672" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5030257" side_tool="true" visible="true" weight="0.40655738" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" visible="true" weight="0.31753555" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49924356" weight="0.40163934" />
+      <window_info anchor="bottom" id="Spring" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" sideWeight="0.49924356" visible="true" weight="0.29344264" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49924356" weight="0.4147541" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.6032787" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" weight="0.329429" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24963397" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -608,557 +654,16 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZProxy.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/PythonCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.zbh.factory.FactoryMethod.IJavaFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.zbh.factory.FactoryMethod.IJavaFactory</OriginalElement>
-          <nodes>
-            <node x="0.0" y="103.0">com.zbh.factory.PythonCourse</node>
-            <node x="327.3125" y="206.0">com.zbh.factory.FactoryMethod.IJavaFactory</node>
-            <node x="58.12499999999997" y="206.0">com.zbh.factory.FactoryMethod.IPythonFactory</node>
-            <node x="173.5" y="0.0">com.zbh.factory.ICourse</node>
-            <node x="346.0" y="103.0">com.zbh.factory.JavaCourse</node>
-            <node x="165.0" y="103.0">com.zbh.factory.FactoryMethod.ICouerseFactory</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.zbh.factory.JavaCourse" target="com.zbh.factory.ICourse">
-              <point x="0.0" y="-26.5" />
-              <point x="418.0" y="83.0" />
-              <point x="274.3" y="83.0" />
-              <point x="28.80000000000001" y="26.5" />
-            </edge>
-            <edge source="com.zbh.factory.FactoryMethod.IJavaFactory" target="com.zbh.factory.ICourse">
-              <point x="53.66666666666666" y="-26.5" />
-              <point x="461.47916666666663" y="181.0" />
-              <point x="500.5" y="181.0" />
-              <point x="500.5" y="73.0" />
-              <point x="303.1" y="73.0" />
-              <point x="57.60000000000002" y="26.5" />
-            </edge>
-            <edge source="com.zbh.factory.PythonCourse" target="com.zbh.factory.ICourse">
-              <point x="0.0" y="-26.5" />
-              <point x="72.0" y="73.0" />
-              <point x="187.9" y="73.0" />
-              <point x="-57.599999999999994" y="26.5" />
-            </edge>
-            <edge source="com.zbh.factory.FactoryMethod.IJavaFactory" target="com.zbh.factory.JavaCourse">
-              <point x="0.0" y="-26.5" />
-              <point x="407.8125" y="181.0" />
-              <point x="418.0" y="181.0" />
-              <point x="0.0" y="26.5" />
-            </edge>
-            <edge source="com.zbh.factory.FactoryMethod.ICouerseFactory" target="com.zbh.factory.ICourse">
-              <point x="0.0" y="-26.5" />
-              <point x="0.0" y="26.5" />
-            </edge>
-            <edge source="com.zbh.factory.FactoryMethod.IPythonFactory" target="com.zbh.factory.ICourse">
-              <point x="0.0" y="-26.5" />
-              <point x="138.62499999999997" y="181.0" />
-              <point x="154.5" y="181.0" />
-              <point x="154.5" y="83.0" />
-              <point x="216.7" y="83.0" />
-              <point x="-28.80000000000001" y="26.5" />
-            </edge>
-            <edge source="com.zbh.factory.FactoryMethod.IJavaFactory" target="com.zbh.factory.FactoryMethod.ICouerseFactory">
-              <point x="-53.66666666666666" y="-26.5" />
-              <point x="354.14583333333337" y="181.0" />
-              <point x="285.75" y="181.0" />
-              <point x="40.25" y="26.5" />
-            </edge>
-            <edge source="com.zbh.factory.FactoryMethod.IPythonFactory" target="com.zbh.factory.FactoryMethod.ICouerseFactory">
-              <point x="53.666666666666686" y="-26.5" />
-              <point x="192.29166666666666" y="181.0" />
-              <point x="205.25" y="181.0" />
-              <point x="-40.25" y="26.5" />
-            </edge>
-            <edge source="com.zbh.factory.FactoryMethod.IPythonFactory" target="com.zbh.factory.PythonCourse">
-              <point x="-53.66666666666663" y="-26.5" />
-              <point x="84.95833333333334" y="181.0" />
-              <point x="72.0" y="181.0" />
-              <point x="0.0" y="26.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-125.0" y="194.0" />
-          <SelectedNodes>
-            <node>com.zbh.factory.FactoryMethod.IJavaFactory</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.zbh.factory.PythonCourse">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.zbh.factory.PythonCourse</OriginalElement>
-          <nodes>
-            <node x="375.0" y="103.0">com.zbh.factory.PythonCourse</node>
-            <node x="219.74999999999997" y="206.0">com.zbh.factory.sampleFactory.SampleFactoryTest</node>
-            <node x="273.5833333333333" y="0.0">com.zbh.factory.ICourse</node>
-            <node x="0.0" y="103.0">com.zbh.factory.JavaCourse</node>
-            <node x="163.99999999999997" y="103.0">com.zbh.factory.sampleFactory.CourseFactory</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.zbh.factory.JavaCourse" target="com.zbh.factory.ICourse">
-              <point x="0.0" y="-26.5" />
-              <point x="72.0" y="73.0" />
-              <point x="291.5833333333333" y="73.0" />
-              <point x="-54.0" y="26.5" />
-            </edge>
-            <edge source="com.zbh.factory.PythonCourse" target="com.zbh.factory.ICourse">
-              <point x="0.0" y="-26.5" />
-              <point x="447.0" y="83.0" />
-              <point x="363.5833333333333" y="83.0" />
-              <point x="18.0" y="26.5" />
-            </edge>
-            <edge source="com.zbh.factory.sampleFactory.SampleFactoryTest" target="com.zbh.factory.PythonCourse">
-              <point x="35.0" y="-26.5" />
-              <point x="342.25" y="176.0" />
-              <point x="447.0" y="176.0" />
-              <point x="0.0" y="26.5" />
-            </edge>
-            <edge source="com.zbh.factory.sampleFactory.SampleFactoryTest" target="com.zbh.factory.sampleFactory.CourseFactory">
-              <point x="0.0" y="-26.5" />
-              <point x="47.75" y="26.5" />
-            </edge>
-            <edge source="com.zbh.factory.sampleFactory.SampleFactoryTest" target="com.zbh.factory.JavaCourse">
-              <point x="-70.0" y="-26.5" />
-              <point x="237.24999999999997" y="186.0" />
-              <point x="72.0" y="186.0" />
-              <point x="0.0" y="26.5" />
-            </edge>
-            <edge source="com.zbh.factory.sampleFactory.CourseFactory" target="com.zbh.factory.ICourse">
-              <point x="0.0" y="-26.5" />
-              <point x="259.5" y="83.0" />
-              <point x="327.5833333333333" y="83.0" />
-              <point x="-18.0" y="26.5" />
-            </edge>
-            <edge source="com.zbh.factory.sampleFactory.SampleFactoryTest" target="com.zbh.factory.ICourse">
-              <point x="70.0" y="-26.5" />
-              <point x="377.25" y="186.0" />
-              <point x="529.5" y="186.0" />
-              <point x="529.5" y="73.0" />
-              <point x="399.5833333333333" y="73.0" />
-              <point x="53.99999999999999" y="26.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-197.0" y="194.0" />
-          <SelectedNodes>
-            <node>com.zbh.factory.PythonCourse</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/ICourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/abstractFactory/Ifactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/AbstractFactory/JavaCourse.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/INote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/JavaNote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/IVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/JavaVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/PythonNote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/PythonVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/abstractFactory/PythonFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.zbh.factory.AbstractFactory.AbstractFactoryTest">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.zbh.factory.AbstractFactory.AbstractFactoryTest</OriginalElement>
-          <nodes>
-            <node x="" y="">com.zbh.factory.JavaVideo</node>
-            <node x="" y="">com.zbh.factory.JavaCourse</node>
-            <node x="" y="">com.zbh.factory.PythonVideo</node>
-            <node x="" y="">com.zbh.factory.JavaNote</node>
-            <node x="" y="">com.zbh.factory.PythonCourse</node>
-            <node x="" y="">com.zbh.factory.AbstractFactory.AbstractFactoryTest</node>
-            <node x="" y="">com.zbh.factory.IVideo</node>
-            <node x="" y="">com.zbh.factory.AbstractFactory.Ifactory</node>
-            <node x="" y="">com.zbh.factory.ICourse</node>
-            <node x="" y="">com.zbh.factory.AbstractFactory.PythonFactory</node>
-            <node x="" y="">com.zbh.factory.INote</node>
-            <node x="" y="">com.zbh.factory.PythonNote</node>
-            <node x="" y="">com.zbh.factory.AbstractFactory.JavaFactory</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="105.0" y="276.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.zbh.factory.FactoryMethod.ICouerseFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.zbh.factory.FactoryMethod.ICouerseFactory</OriginalElement>
-          <nodes>
-            <node x="0.0" y="155.0">com.zbh.factory.PythonCourse</node>
-            <node x="153.0" y="80.0">com.zbh.factory.FactoryMethod.IJavaFactory</node>
-            <node x="0.0" y="80.0">com.zbh.factory.FactoryMethod.IPythonFactory</node>
-            <node x="0.0" y="230.0">com.zbh.factory.JavaCourse</node>
-            <node x="68.5" y="0.0">com.zbh.factory.FactoryMethod.ICouerseFactory</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.zbh.factory.FactoryMethod.IPythonFactory" target="com.zbh.factory.FactoryMethod.ICouerseFactory">
-              <point x="0.0" y="-15.0" />
-              <point x="66.5" y="55.0" />
-              <point x="104.0" y="55.0" />
-              <point x="-35.5" y="15.0" />
-            </edge>
-            <edge source="com.zbh.factory.FactoryMethod.IJavaFactory" target="com.zbh.factory.FactoryMethod.ICouerseFactory">
-              <point x="0.0" y="-15.0" />
-              <point x="212.5" y="55.0" />
-              <point x="175.0" y="55.0" />
-              <point x="35.5" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-131.0" y="42.0" />
-          <SelectedNodes>
-            <node>com.zbh.factory.FactoryMethod.IPythonFactory</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/factoryMethod/IPythonFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.zbh.factory.FactoryMethod.IPythonFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.zbh.factory.FactoryMethod.IPythonFactory</OriginalElement>
-          <nodes>
-            <node x="" y="">com.zbh.factory.PythonCourse</node>
-            <node x="" y="">com.zbh.factory.FactoryMethod.IJavaFactory</node>
-            <node x="" y="">com.zbh.factory.FactoryMethod.IPythonFactory</node>
-            <node x="" y="">com.zbh.factory.FactoryMethod.FactoryMethodTest</node>
-            <node x="" y="">com.zbh.factory.ICourse</node>
-            <node x="" y="">com.zbh.factory.JavaCourse</node>
-            <node x="" y="">com.zbh.factory.FactoryMethod.ICouerseFactory</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-4.0" y="228.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/factoryMethod/FactoryMethodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/sampleFactory/SampleFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.zbh.factory.sampleFactory.SampleFactoryTest">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.zbh.factory.sampleFactory.SampleFactoryTest</OriginalElement>
-          <nodes>
-            <node x="" y="">com.zbh.factory.sampleFactory.SampleFactoryTest</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-191.0" y="-24.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/AbstractFactory/抽象工厂" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/sampleFactory/CourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/abstractFactory/AbstractFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/abstractFactory/JavaFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/abstractFactory/AbstractFactory.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.zbh.factory.AbstractFactory.AbstractFactoryTest</OriginalElement>
-          <nodes>
-            <node x="" y="">com.zbh.factory.JavaCourse</node>
-            <node x="" y="">com.zbh.factory.JavaVideo</node>
-            <node x="" y="">com.zbh.factory.PythonVideo</node>
-            <node x="" y="">com.zbh.factory.JavaNote</node>
-            <node x="" y="">com.zbh.factory.PythonCourse</node>
-            <node x="" y="">com.zbh.factory.AbstractFactory.AbstractFactoryTest</node>
-            <node x="" y="">com.zbh.factory.IVideo</node>
-            <node x="" y="">com.zbh.factory.AbstractFactory.Ifactory</node>
-            <node x="" y="">com.zbh.factory.ICourse</node>
-            <node x="" y="">com.zbh.factory.AbstractFactory.PythonFactory</node>
-            <node x="" y="">com.zbh.factory.INote</node>
-            <node x="" y="">com.zbh.factory.PythonNote</node>
-            <node x="" y="">com.zbh.factory.AbstractFactory.JavaFactory</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="220.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/JavaCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/sampleFactory/简单工厂.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/factoryMethod/FactoryMethod.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.zbh.factory.FactoryMethod.IPythonFactory</OriginalElement>
-          <nodes>
-            <node x="" y="">com.zbh.factory.FactoryMethod.IJavaFactory</node>
-            <node x="" y="">com.zbh.factory.PythonCourse</node>
-            <node x="" y="">com.zbh.factory.FactoryMethod.IPythonFactory</node>
-            <node x="" y="">com.zbh.factory.FactoryMethod.FactoryMethodTest</node>
-            <node x="" y="">com.zbh.factory.ICourse</node>
-            <node x="" y="">com.zbh.factory.JavaCourse</node>
-            <node x="" y="">com.zbh.factory.FactoryMethod.ICouerseFactory</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="263.0" y="236.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/factoryMethod/工厂方法.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" column="69" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="69" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/factory/abstractFactory/抽象工厂.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/lazy/懒汉式单利.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="6" selection-start-column="6" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/hungry/HungrySingleton2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/hungry/HungrySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/hungry/饿汉式单例.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1190,53 +695,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/lazy/LazyInnerClassSingletonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/lazy/SeriableSingleTon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/lazy/SeriableSingletonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="9" selection-start-line="9" selection-start-column="6" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="11">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/lazy/ExectorThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/register/Pojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/register/Pojo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/lazy/LazyInnerClassSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1244,27 +717,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/register/ContainerSingletonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/treadLocal/ThreadLocalSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/treadLocal/ThreadLocalSingletonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/register/ContainerSingletonTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/treadLocal/ThreadLocalSingletonTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/单例模式.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1290,14 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1305,6 +751,268 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/prototype/simple/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/treadLocal/ThreadLocalSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/lazy/ExectorThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/statics/OrderServiceStaticProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/entity/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/cglibproxy/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/entity/DynamicDataSourceEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamic/OrderServiceDynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/cglibproxy/CGlibMeipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/gpproxy/GPInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/jdkproxy/JDKMeipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/cglibproxy/CglibTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/gpproxy/GPMeipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/jdkproxy/Girl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/gpproxy/GPProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/Girl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/DbRouteProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZIvokationHanle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/javax/tools/StandardJavaFileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="182" column="8" lean-forward="true" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/singletonPattern/lazy/LazyInnerClassSingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/javax/tools/JavaCompiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="262" column="36" selection-start-line="262" selection-start-column="28" selection-end-line="262" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/$Proxy0.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZMeiPo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="638" column="29" selection-start-line="638" selection-start-column="29" selection-end-line="638" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/gpproxy/GPProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/dynamicproxy/gpproxy/GPClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="34" column="81" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/readMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1314,9 +1022,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>designModel</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib-nodep:2.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
