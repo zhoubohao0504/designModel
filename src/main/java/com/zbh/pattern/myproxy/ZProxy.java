@@ -34,7 +34,9 @@ public class ZProxy {
             task.call();
             manager.close();
 
+            //通过反射获取到该class
             Class proxClass = loader.findClass("$Proxy0");
+            //根据构造方法获取
             Constructor c =proxClass.getConstructor(ZIvokationHanle.class);
             return c.newInstance(hanle);
         }catch (Exception e){
@@ -59,6 +61,7 @@ public class ZProxy {
         stringBuffer.append("this.h=h;"+ln);
         stringBuffer.append("}"+ln);
 
+        //根据传入的接口数量循环构建接口里面需要实现的方法
         for(Method m :interfaces[0].getMethods()){
             stringBuffer.append("public "+m.getReturnType().getName()+" "+m.getName()+"(){"+ln);
                 stringBuffer.append("try{"+ln);
