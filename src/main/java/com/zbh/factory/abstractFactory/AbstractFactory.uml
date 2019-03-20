@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.zbh.factory.AbstractFactory.AbstractFactoryTest</OriginalElement>
+  <nodes>
+    <node x="405.0" y="597.0">com.zbh.factory.JavaCourse</node>
+    <node x="0.0" y="396.0">com.zbh.factory.JavaVideo</node>
+    <node x="195.0" y="396.0">com.zbh.factory.PythonVideo</node>
+    <node x="0.0" y="597.0">com.zbh.factory.JavaNote</node>
+    <node x="569.0" y="597.0">com.zbh.factory.PythonCourse</node>
+    <node x="0.0" y="695.0">com.zbh.factory.AbstractFactory.AbstractFactoryTest</node>
+    <node x="97.5" y="293.0">com.zbh.factory.IVideo</node>
+    <node x="111.0" y="0.0">com.zbh.factory.AbstractFactory.Ifactory</node>
+    <node x="487.0" y="494.0">com.zbh.factory.ICourse</node>
+    <node x="0.0" y="149.0">com.zbh.factory.AbstractFactory.PythonFactory</node>
+    <node x="95.0" y="494.0">com.zbh.factory.INote</node>
+    <node x="190.0" y="597.0">com.zbh.factory.PythonNote</node>
+    <node x="222.0" y="149.0">com.zbh.factory.AbstractFactory.JavaFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zbh.factory.AbstractFactory.PythonFactory" target="com.zbh.factory.AbstractFactory.Ifactory">
+      <point x="0.0" y="-49.5" />
+      <point x="101.0" y="124.0" />
+      <point x="161.5" y="124.0" />
+      <point x="-50.5" y="49.5" />
+    </edge>
+    <edge source="com.zbh.factory.PythonCourse" target="com.zbh.factory.ICourse">
+      <point x="0.0" y="-26.5" />
+      <point x="641.0" y="572.0" />
+      <point x="595.0" y="572.0" />
+      <point x="36.0" y="26.5" />
+    </edge>
+    <edge source="com.zbh.factory.PythonVideo" target="com.zbh.factory.IVideo">
+      <point x="0.0" y="-26.5" />
+      <point x="282.5" y="371.0" />
+      <point x="228.75" y="371.0" />
+      <point x="43.75" y="26.5" />
+    </edge>
+    <edge source="com.zbh.factory.AbstractFactory.JavaFactory" target="com.zbh.factory.AbstractFactory.Ifactory">
+      <point x="0.0" y="-49.5" />
+      <point x="323.0" y="124.0" />
+      <point x="262.5" y="124.0" />
+      <point x="50.5" y="49.5" />
+    </edge>
+    <edge source="com.zbh.factory.JavaNote" target="com.zbh.factory.INote">
+      <point x="0.0" y="-26.5" />
+      <point x="85.0" y="572.0" />
+      <point x="137.5" y="572.0" />
+      <point x="-42.5" y="26.5" />
+    </edge>
+    <edge source="com.zbh.factory.JavaCourse" target="com.zbh.factory.ICourse">
+      <point x="0.0" y="-26.5" />
+      <point x="477.0" y="572.0" />
+      <point x="523.0" y="572.0" />
+      <point x="-36.0" y="26.5" />
+    </edge>
+    <edge source="com.zbh.factory.PythonNote" target="com.zbh.factory.INote">
+      <point x="0.0" y="-26.5" />
+      <point x="275.0" y="572.0" />
+      <point x="222.5" y="572.0" />
+      <point x="42.5" y="26.5" />
+    </edge>
+    <edge source="com.zbh.factory.JavaVideo" target="com.zbh.factory.IVideo">
+      <point x="0.0" y="-26.5" />
+      <point x="87.5" y="371.0" />
+      <point x="141.25" y="371.0" />
+      <point x="-43.75" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="688.8888888888887" y="288.2777777777777" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
