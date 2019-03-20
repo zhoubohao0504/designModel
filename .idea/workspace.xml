@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddcea584-33c8-4ccf-8b09-2d8e53c6886e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dynamic/DbRemoteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dynamic/OrderServiceDynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/mycglib/CGlibTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/mycglib/CglibMeipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/mycglib/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbh/各类设计模式对比.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/dbroute/proxy/readMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/myproxy/ZProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zbh/pattern/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zbh/pattern/myproxy/ZProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zbh/pattern/myproxy/ZProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zbh/各类设计模式对比.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zbh/各类设计模式对比.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,7 +64,7 @@
         <counts>
           <entry key="dummy" value="16" />
           <entry key="java" value="6762" />
-          <entry key="md" value="1804" />
+          <entry key="md" value="2722" />
           <entry key="txt" value="2" />
           <entry key="xml" value="2" />
         </counts>
@@ -81,7 +72,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="6762" />
-          <entry key="Markdown" value="1804" />
+          <entry key="Markdown" value="2722" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="XML" value="2" />
         </counts>
@@ -103,8 +94,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/readMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="38">
-                <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <first_editor>
+                <caret column="6" selection-start-column="6" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -160,7 +151,9 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/各类设计模式对比.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="171">
+                <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -214,7 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zbh/SingletonPattern/Hungry/HungrySingleton2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zbh/SingletonPattern/Lazy/懒汉式单利.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/zbh/SingletonPattern/Lazy/ExectorThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zbh/SingletonPattern/Lazy/LazySimpleSingletonTest.java" />
@@ -264,6 +256,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/mycglib/CglibMeipo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/mycglib/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/mycglib/CGlibTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zbh/各类设计模式对比.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/zbh/pattern/readMe.md" />
       </list>
     </option>
@@ -336,6 +329,16 @@
               <item name="zbh" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zbh" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="mycglib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -347,7 +350,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553085500410" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553088931786" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_162/lib/tools.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -486,7 +489,7 @@
       <workItem from="1552982884205" duration="10867000" />
       <workItem from="1553052683115" duration="1032000" />
       <workItem from="1553064067874" duration="4259000" />
-      <workItem from="1553069151104" duration="6775000" />
+      <workItem from="1553069151104" duration="9845000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1552378190011</created>
@@ -548,7 +551,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63703000" />
+    <option name="totallyTimeSpent" value="66773000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1026,6 +1029,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/各类设计模式对比.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="171">
+            <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/mycglib/CGlibTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="97" selection-start-line="10" selection-start-column="97" selection-end-line="10" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/mycglib/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1043,26 +1063,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/mycglib/CGlibTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="97" selection-start-line="10" selection-start-column="97" selection-end-line="10" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/各类设计模式对比.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zbh/pattern/readMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <first_editor>
+            <caret column="6" selection-start-column="6" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
