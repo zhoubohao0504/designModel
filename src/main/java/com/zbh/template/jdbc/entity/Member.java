@@ -1,4 +1,4 @@
-package com.zbh.Template.jdbc.entity;
+package com.zbh.template.jdbc.entity;
 
 public class Member {
 

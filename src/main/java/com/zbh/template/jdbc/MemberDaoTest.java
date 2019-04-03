@@ -1,6 +1,6 @@
-package com.zbh.Template.jdbc;
+package com.zbh.template.jdbc;
 
-import com.zbh.Template.jdbc.dao.MemberDao;
+import com.zbh.template.jdbc.dao.MemberDao;
 
 import java.util.List;
 

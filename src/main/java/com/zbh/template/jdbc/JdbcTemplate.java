@@ -1,4 +1,4 @@
-package com.zbh.Template.jdbc;
+package com.zbh.template.jdbc;
 
 import javax.sql.DataSource;
 import java.sql.Connection;

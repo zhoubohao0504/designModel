@@ -1,8 +1,8 @@
-package com.zbh.Template.jdbc.dao;
+package com.zbh.template.jdbc.dao;
 
-import com.zbh.Template.jdbc.JdbcTemplate;
-import com.zbh.Template.jdbc.RowMapper;
-import com.zbh.Template.jdbc.entity.Member;
+import com.zbh.template.jdbc.JdbcTemplate;
+import com.zbh.template.jdbc.RowMapper;
+import com.zbh.template.jdbc.entity.Member;
 
 import javax.sql.DataSource;
 import java.sql.ResultSet;
